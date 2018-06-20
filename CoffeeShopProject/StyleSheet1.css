@@ -1,0 +1,97 @@
+﻿.container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-gap: 25px 15px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(24, 3px);
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+
+    /*width: 100vw;
+    height: 100vh;
+    margin: auto;
+    width: 90%;*/
+}
+img {
+    width: 100%;
+    height: auto;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+.drinkOne img{
+border: 2px solid blue;
+border-radius:15px;
+}
+
+.shop{
+    /*display: flex;*/
+    background-image: url('images/coffee shop3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / 17;
+    grid-row: 1 / 9;
+    font-size:60px;
+    font-family: bold, verdana;
+    color: white;
+    justify-content: center;
+    align-content:center;
+}
+
+.drinkOne {
+    /*border-image:2px round;*/
+    
+    display: flex;
+    grid-column: 1 / 5;
+    grid-row: 9 / 14;
+
+}
+
+.drinkTwo {
+    display: flex;
+    grid-column: 5 / 9;
+    grid-row: 9 / 14;
+}
+
+.drinkThree {
+    display: flex;
+    grid-column: 9 / 13;
+    grid-row: 9 / 14;
+}
+
+.drinkFour {
+    display: flex;
+    grid-column: 13 / 17;
+    grid-row: 9 / 14;
+}
+
+.aboutShop {
+    background-color:mistyrose;
+    grid-column: 1 / 5;
+    grid-row: 14 / 23;
+}
+
+.items {
+    display:flex;
+    background-color: burlywood;
+    grid-column: 5 / 13;
+    grid-row: 14 / 23;
+}
+
+.ownerPic {
+    display: flex;
+    grid-column: 13 / 17;
+    grid-row: 14 / 20;
+}
+
+.ownerBio {
+    background-color: mistyrose;
+    grid-column: 13 / 17;
+    grid-row: 18 / 23;
+}
+
+.footer {
+    background-color: rosybrown;
+    grid-column: 1 / 17;
+    grid-row: 23 / 25;
+}
